@@ -1,0 +1,387 @@
+relation_id,source_exercise_id,target_exercise_id,relation_type,base_relevance,goal_match,minimum_user_level,requires_correct_execution,rationale,review_status
+REL0001,EX001,EX002,progression,90,muscle_strength;endurance,beginner,True,Direct linear progression from Wall Push-Up to Incline Push-Up once technique is mastered.,validated
+REL0002,EX002,EX004,progression,90,muscle_strength;endurance,intermediate,True,Direct linear progression from Incline Push-Up to Standard Push-Up once technique is mastered.,validated
+REL0003,EX002,EX001,easier_variant,95,muscle_strength;endurance,beginner,False,Regresses load or lever arm to Wall Push-Up to rebuild form and avoid strain.,validated
+REL0004,EX003,EX004,progression,90,muscle_strength;endurance,intermediate,True,Direct linear progression from Knee Push-Up to Standard Push-Up once technique is mastered.,validated
+REL0005,EX003,EX001,easier_variant,95,muscle_strength;endurance,beginner,False,Regresses load or lever arm to Wall Push-Up to rebuild form and avoid strain.,validated
+REL0006,EX004,EX005,progression,90,muscle_strength;endurance;core_stability,advanced,True,Direct linear progression from Standard Push-Up to Diamond Push-Up once technique is mastered.,validated
+REL0007,EX004,EX003,easier_variant,95,muscle_strength;endurance;core_stability,beginner,False,Regresses load or lever arm to Knee Push-Up to rebuild form and avoid strain.,validated
+REL0008,EX005,EX006,progression,90,muscle_strength;endurance,advanced,True,Direct linear progression from Diamond Push-Up to Decline Push-Up once technique is mastered.,validated
+REL0009,EX005,EX004,easier_variant,95,muscle_strength;endurance,beginner,False,Regresses load or lever arm to Standard Push-Up to rebuild form and avoid strain.,validated
+REL0010,EX006,EX007,progression,90,muscle_strength;core_stability,advanced,True,Direct linear progression from Decline Push-Up to Pike Push-Up once technique is mastered.,validated
+REL0011,EX006,EX004,easier_variant,95,muscle_strength;core_stability,beginner,False,Regresses load or lever arm to Standard Push-Up to rebuild form and avoid strain.,validated
+REL0012,EX007,EX008,progression,90,muscle_strength;balance,advanced,True,Direct linear progression from Pike Push-Up to Elevated Pike Push-Up once technique is mastered.,validated
+REL0013,EX007,EX004,easier_variant,95,muscle_strength;balance,beginner,False,Regresses load or lever arm to Standard Push-Up to rebuild form and avoid strain.,validated
+REL0014,EX008,EX009,progression,90,muscle_strength;balance;core_stability,advanced,True,Direct linear progression from Elevated Pike Push-Up to Handstand Hold Against Wall once technique is mastered.,validated
+REL0015,EX008,EX007,easier_variant,95,muscle_strength;balance;core_stability,beginner,False,Regresses load or lever arm to Pike Push-Up to rebuild form and avoid strain.,validated
+REL0016,EX009,EX008,easier_variant,95,muscle_strength;balance;core_stability,beginner,False,Regresses load or lever arm to Elevated Pike Push-Up to rebuild form and avoid strain.,validated
+REL0017,EX010,EX012,progression,90,muscle_strength;endurance,intermediate,True,Direct linear progression from Chair Triceps Dip to Feet-Elevated Triceps Dip once technique is mastered.,validated
+REL0018,EX010,EX011,easier_variant,95,muscle_strength;endurance,beginner,False,Regresses load or lever arm to Floor Triceps Dip to rebuild form and avoid strain.,validated
+REL0019,EX011,EX010,progression,90,muscle_strength;endurance,beginner,True,Direct linear progression from Floor Triceps Dip to Chair Triceps Dip once technique is mastered.,validated
+REL0020,EX012,EX010,easier_variant,95,muscle_strength,beginner,False,Regresses load or lever arm to Chair Triceps Dip to rebuild form and avoid strain.,validated
+REL0021,EX013,EX014,progression,90,mobility;muscle_strength,beginner,True,Direct linear progression from Prone Y-Raise to Prone T-Raise once technique is mastered.,validated
+REL0022,EX014,EX015,progression,90,mobility;muscle_strength,beginner,True,Direct linear progression from Prone T-Raise to Prone W-Raise once technique is mastered.,validated
+REL0023,EX014,EX013,easier_variant,95,mobility;muscle_strength,beginner,False,Regresses load or lever arm to Prone Y-Raise to rebuild form and avoid strain.,validated
+REL0024,EX015,EX016,progression,90,mobility;muscle_strength,beginner,True,Direct linear progression from Prone W-Raise to Prone Cobra Hold once technique is mastered.,validated
+REL0025,EX015,EX014,easier_variant,95,mobility;muscle_strength,beginner,False,Regresses load or lever arm to Prone T-Raise to rebuild form and avoid strain.,validated
+REL0026,EX016,EX015,easier_variant,95,core_stability;mobility;muscle_strength,beginner,False,Regresses load or lever arm to Prone W-Raise to rebuild form and avoid strain.,validated
+REL0027,EX017,EX004,progression,90,mobility;core_stability,intermediate,True,Direct linear progression from Scapular Push-Up to Standard Push-Up once technique is mastered.,validated
+REL0028,EX017,EX001,easier_variant,95,mobility;core_stability,beginner,False,Regresses load or lever arm to Wall Push-Up to rebuild form and avoid strain.,validated
+REL0029,EX019,EX020,progression,90,muscle_strength;mobility,beginner,True,Direct linear progression from Chair Squat to Bodyweight Box Squat once technique is mastered.,validated
+REL0030,EX020,EX021,progression,90,muscle_strength;endurance,beginner,True,Direct linear progression from Bodyweight Box Squat to Bodyweight Squat once technique is mastered.,validated
+REL0031,EX020,EX019,easier_variant,95,muscle_strength;endurance,beginner,False,Regresses load or lever arm to Chair Squat to rebuild form and avoid strain.,validated
+REL0032,EX021,EX022,progression,90,muscle_strength;endurance;mobility,beginner,True,Direct linear progression from Bodyweight Squat to Sumo Squat once technique is mastered.,validated
+REL0033,EX021,EX020,easier_variant,95,muscle_strength;endurance;mobility,beginner,False,Regresses load or lever arm to Bodyweight Box Squat to rebuild form and avoid strain.,validated
+REL0034,EX022,EX023,progression,90,muscle_strength;mobility,beginner,True,Direct linear progression from Sumo Squat to Wall Sit once technique is mastered.,validated
+REL0035,EX022,EX021,easier_variant,95,muscle_strength;mobility,beginner,False,Regresses load or lever arm to Bodyweight Squat to rebuild form and avoid strain.,validated
+REL0036,EX023,EX020,easier_variant,95,endurance;muscle_strength,beginner,False,Regresses load or lever arm to Bodyweight Box Squat to rebuild form and avoid strain.,validated
+REL0037,EX024,EX025,progression,90,balance;muscle_strength,beginner,True,Direct linear progression from Assisted Reverse Lunge to Reverse Lunge once technique is mastered.,validated
+REL0038,EX024,EX019,easier_variant,95,balance;muscle_strength,beginner,False,Regresses load or lever arm to Chair Squat to rebuild form and avoid strain.,validated
+REL0039,EX025,EX026,progression,90,muscle_strength;balance,intermediate,True,Direct linear progression from Reverse Lunge to Forward Lunge once technique is mastered.,validated
+REL0040,EX025,EX024,easier_variant,95,muscle_strength;balance,beginner,False,Regresses load or lever arm to Assisted Reverse Lunge to rebuild form and avoid strain.,validated
+REL0041,EX026,EX027,progression,90,muscle_strength;balance;endurance,intermediate,True,Direct linear progression from Forward Lunge to Walking Lunge once technique is mastered.,validated
+REL0042,EX026,EX025,easier_variant,95,muscle_strength;balance;endurance,beginner,False,Regresses load or lever arm to Reverse Lunge to rebuild form and avoid strain.,validated
+REL0043,EX027,EX028,progression,90,endurance;muscle_strength;balance,intermediate,True,Direct linear progression from Walking Lunge to Curtsy Lunge once technique is mastered.,validated
+REL0044,EX027,EX026,easier_variant,95,endurance;muscle_strength;balance,beginner,False,Regresses load or lever arm to Forward Lunge to rebuild form and avoid strain.,validated
+REL0045,EX028,EX030,progression,90,muscle_strength;balance;mobility,advanced,True,Direct linear progression from Curtsy Lunge to Bulgarian Split Squat once technique is mastered.,validated
+REL0046,EX028,EX025,easier_variant,95,muscle_strength;balance;mobility,beginner,False,Regresses load or lever arm to Reverse Lunge to rebuild form and avoid strain.,validated
+REL0047,EX029,EX030,progression,90,muscle_strength;balance,advanced,True,Direct linear progression from Static Split Squat to Bulgarian Split Squat once technique is mastered.,validated
+REL0048,EX029,EX024,easier_variant,95,muscle_strength;balance,beginner,False,Regresses load or lever arm to Assisted Reverse Lunge to rebuild form and avoid strain.,validated
+REL0049,EX030,EX029,easier_variant,95,muscle_strength;balance,beginner,False,Regresses load or lever arm to Static Split Squat to rebuild form and avoid strain.,validated
+REL0050,EX031,EX032,progression,90,core_stability;muscle_strength,intermediate,True,Direct linear progression from Glute Bridge to Single-Leg Glute Bridge once technique is mastered.,validated
+REL0051,EX032,EX031,easier_variant,95,core_stability;muscle_strength;balance,beginner,False,Regresses load or lever arm to Glute Bridge to rebuild form and avoid strain.,validated
+REL0052,EX033,EX031,easier_variant,95,muscle_strength;mobility,beginner,False,Regresses load or lever arm to Glute Bridge to rebuild form and avoid strain.,validated
+REL0053,EX034,EX035,progression,90,muscle_strength;endurance;balance,beginner,True,Direct linear progression from Standing Calf Raise to Single-Leg Calf Raise once technique is mastered.,validated
+REL0054,EX035,EX034,easier_variant,95,muscle_strength;balance,beginner,False,Regresses load or lever arm to Standing Calf Raise to rebuild form and avoid strain.,validated
+REL0055,EX036,EX038,progression,90,muscle_strength;mobility,beginner,True,Direct linear progression from Side-Lying Leg Abduction to Fire Hydrant once technique is mastered.,validated
+REL0056,EX037,EX038,progression,90,mobility;muscle_strength;core_stability,beginner,True,Direct linear progression from Clamshell to Fire Hydrant once technique is mastered.,validated
+REL0057,EX038,EX037,easier_variant,95,muscle_strength;mobility;core_stability,beginner,False,Regresses load or lever arm to Clamshell to rebuild form and avoid strain.,validated
+REL0058,EX039,EX040,progression,90,core_stability,beginner,True,Direct linear progression from Knee Plank to Forearm Plank once technique is mastered.,validated
+REL0059,EX040,EX041,progression,90,core_stability;endurance,beginner,True,Direct linear progression from Forearm Plank to High Plank once technique is mastered.,validated
+REL0060,EX040,EX039,easier_variant,95,core_stability;endurance,beginner,False,Regresses load or lever arm to Knee Plank to rebuild form and avoid strain.,validated
+REL0061,EX041,EX048,progression,90,core_stability;endurance,intermediate,True,Direct linear progression from High Plank to Plank Shoulder Taps once technique is mastered.,validated
+REL0062,EX041,EX039,easier_variant,95,core_stability;endurance,beginner,False,Regresses load or lever arm to Knee Plank to rebuild form and avoid strain.,validated
+REL0063,EX042,EX043,progression,90,core_stability;balance,intermediate,True,Direct linear progression from Knee Side Plank to Forearm Side Plank once technique is mastered.,validated
+REL0064,EX042,EX039,easier_variant,95,core_stability;balance,beginner,False,Regresses load or lever arm to Knee Plank to rebuild form and avoid strain.,validated
+REL0065,EX043,EX044,progression,90,core_stability;balance;endurance,intermediate,True,Direct linear progression from Forearm Side Plank to High Side Plank once technique is mastered.,validated
+REL0066,EX043,EX042,easier_variant,95,core_stability;balance;endurance,beginner,False,Regresses load or lever arm to Knee Side Plank to rebuild form and avoid strain.,validated
+REL0067,EX044,EX043,easier_variant,95,core_stability;balance,beginner,False,Regresses load or lever arm to Forearm Side Plank to rebuild form and avoid strain.,validated
+REL0068,EX045,EX046,progression,90,core_stability;mobility,beginner,True,Direct linear progression from Dead Bug to Bird Dog once technique is mastered.,validated
+REL0069,EX046,EX048,progression,90,core_stability;balance;mobility,intermediate,True,Direct linear progression from Bird Dog to Plank Shoulder Taps once technique is mastered.,validated
+REL0070,EX046,EX045,easier_variant,95,core_stability;balance;mobility,beginner,False,Regresses load or lever arm to Dead Bug to rebuild form and avoid strain.,validated
+REL0071,EX047,EX032,progression,90,core_stability;balance,intermediate,True,Direct linear progression from Glute Bridge March to Single-Leg Glute Bridge once technique is mastered.,validated
+REL0072,EX047,EX031,easier_variant,95,core_stability;balance,beginner,False,Regresses load or lever arm to Glute Bridge to rebuild form and avoid strain.,validated
+REL0073,EX048,EX049,progression,90,core_stability;balance;muscle_strength,intermediate,True,Direct linear progression from Plank Shoulder Taps to Bear Crawl Hold once technique is mastered.,validated
+REL0074,EX048,EX041,easier_variant,95,core_stability;balance;muscle_strength,beginner,False,Regresses load or lever arm to High Plank to rebuild form and avoid strain.,validated
+REL0075,EX049,EX041,easier_variant,95,core_stability;endurance,beginner,False,Regresses load or lever arm to High Plank to rebuild form and avoid strain.,validated
+REL0076,EX050,EX051,progression,90,core_stability;muscle_strength,intermediate,True,Direct linear progression from Bent-Knee Leg Raise to Straight Leg Raise once technique is mastered.,validated
+REL0077,EX050,EX045,easier_variant,95,core_stability;muscle_strength,beginner,False,Regresses load or lever arm to Dead Bug to rebuild form and avoid strain.,validated
+REL0078,EX051,EX052,progression,90,core_stability;muscle_strength,intermediate,True,Direct linear progression from Straight Leg Raise to Hollow Body Tuck Hold once technique is mastered.,validated
+REL0079,EX051,EX050,easier_variant,95,core_stability;muscle_strength,beginner,False,Regresses load or lever arm to Bent-Knee Leg Raise to rebuild form and avoid strain.,validated
+REL0080,EX052,EX053,progression,90,core_stability;endurance,advanced,True,Direct linear progression from Hollow Body Tuck Hold to Hollow Body Full Hold once technique is mastered.,validated
+REL0081,EX052,EX045,easier_variant,95,core_stability;endurance,beginner,False,Regresses load or lever arm to Dead Bug to rebuild form and avoid strain.,validated
+REL0082,EX053,EX052,easier_variant,95,core_stability;muscle_strength,beginner,False,Regresses load or lever arm to Hollow Body Tuck Hold to rebuild form and avoid strain.,validated
+REL0083,EX054,EX055,progression,90,core_stability;endurance,intermediate,True,Direct linear progression from Flutter Kicks to Scissor Kicks once technique is mastered.,validated
+REL0084,EX054,EX050,easier_variant,95,core_stability;endurance,beginner,False,Regresses load or lever arm to Bent-Knee Leg Raise to rebuild form and avoid strain.,validated
+REL0085,EX055,EX054,easier_variant,95,core_stability;endurance,beginner,False,Regresses load or lever arm to Flutter Kicks to rebuild form and avoid strain.,validated
+REL0086,EX056,EX057,progression,90,core_stability;endurance,intermediate,True,Direct linear progression from Russian Twist Feet on Floor to Russian Twist Feet Elevated once technique is mastered.,validated
+REL0087,EX057,EX056,easier_variant,95,core_stability;balance;endurance,beginner,False,Regresses load or lever arm to Russian Twist Feet on Floor to rebuild form and avoid strain.,validated
+REL0088,EX058,EX059,progression,90,muscle_strength;endurance,beginner,True,Direct linear progression from Standard Crunch to Reverse Crunch once technique is mastered.,validated
+REL0089,EX059,EX050,progression,90,core_stability;muscle_strength,beginner,True,Direct linear progression from Reverse Crunch to Bent-Knee Leg Raise once technique is mastered.,validated
+REL0090,EX059,EX058,easier_variant,95,core_stability;muscle_strength,beginner,False,Regresses load or lever arm to Standard Crunch to rebuild form and avoid strain.,validated
+REL0091,EX060,EX058,easier_variant,95,core_stability;endurance;muscle_strength,beginner,False,Regresses load or lever arm to Standard Crunch to rebuild form and avoid strain.,validated
+REL0092,EX061,EX062,progression,90,endurance;core_stability,advanced,True,Direct linear progression from Step-Back Burpee to Standard Burpee once technique is mastered.,validated
+REL0093,EX062,EX063,progression,90,endurance;muscle_strength,advanced,True,Direct linear progression from Standard Burpee to Burpee with Push-Up once technique is mastered.,validated
+REL0094,EX062,EX061,easier_variant,95,endurance;muscle_strength,beginner,False,Regresses load or lever arm to Step-Back Burpee to rebuild form and avoid strain.,validated
+REL0095,EX063,EX062,easier_variant,95,endurance;muscle_strength,beginner,False,Regresses load or lever arm to Standard Burpee to rebuild form and avoid strain.,validated
+REL0096,EX064,EX065,progression,90,mobility;core_stability;muscle_strength,intermediate,True,Direct linear progression from Inchworm Walkout to Inchworm to Push-Up once technique is mastered.,validated
+REL0097,EX065,EX064,easier_variant,95,muscle_strength;mobility;core_stability,beginner,False,Regresses load or lever arm to Inchworm Walkout to rebuild form and avoid strain.,validated
+REL0098,EX066,EX067,progression,90,core_stability;endurance,intermediate,True,Direct linear progression from Slow Mountain Climbers to Speed Mountain Climbers once technique is mastered.,validated
+REL0099,EX066,EX041,easier_variant,95,core_stability;endurance,beginner,False,Regresses load or lever arm to High Plank to rebuild form and avoid strain.,validated
+REL0100,EX067,EX068,progression,90,endurance;core_stability,intermediate,True,Direct linear progression from Speed Mountain Climbers to Cross-Body Mountain Climbers once technique is mastered.,validated
+REL0101,EX067,EX066,easier_variant,95,endurance;core_stability,beginner,False,Regresses load or lever arm to Slow Mountain Climbers to rebuild form and avoid strain.,validated
+REL0102,EX068,EX066,easier_variant,95,core_stability;endurance,beginner,False,Regresses load or lever arm to Slow Mountain Climbers to rebuild form and avoid strain.,validated
+REL0103,EX069,EX041,easier_variant,95,mobility;core_stability,beginner,False,Regresses load or lever arm to High Plank to rebuild form and avoid strain.,validated
+REL0104,EX070,EX049,easier_variant,95,core_stability;endurance;muscle_strength,beginner,False,Regresses load or lever arm to Bear Crawl Hold to rebuild form and avoid strain.,validated
+REL0105,EX071,EX011,easier_variant,95,mobility;muscle_strength;endurance,beginner,False,Regresses load or lever arm to Floor Triceps Dip to rebuild form and avoid strain.,validated
+REL0106,EX072,EX046,easier_variant,95,core_stability;mobility;balance;muscle_strength,beginner,False,Regresses load or lever arm to Bird Dog to rebuild form and avoid strain.,validated
+REL0107,EX073,EX074,progression,90,balance;core_stability,beginner,True,Direct linear progression from Tandem Stance Balance to Single-Leg Stance once technique is mastered.,validated
+REL0108,EX074,EX075,progression,90,balance;core_stability,intermediate,True,Direct linear progression from Single-Leg Stance to Single-Leg Stance Eyes Closed once technique is mastered.,validated
+REL0109,EX074,EX073,easier_variant,95,balance;core_stability,beginner,False,Regresses load or lever arm to Tandem Stance Balance to rebuild form and avoid strain.,validated
+REL0110,EX075,EX076,progression,90,balance;core_stability,beginner,True,Direct linear progression from Single-Leg Stance Eyes Closed to Single-Leg Clock Reaches once technique is mastered.,validated
+REL0111,EX075,EX074,easier_variant,95,balance;core_stability,beginner,False,Regresses load or lever arm to Single-Leg Stance to rebuild form and avoid strain.,validated
+REL0112,EX076,EX077,progression,90,balance;mobility;core_stability,intermediate,True,Direct linear progression from Single-Leg Clock Reaches to Bodyweight Single-Leg RDL once technique is mastered.,validated
+REL0113,EX076,EX074,easier_variant,95,balance;mobility;core_stability,beginner,False,Regresses load or lever arm to Single-Leg Stance to rebuild form and avoid strain.,validated
+REL0114,EX077,EX079,progression,90,balance;muscle_strength;mobility,intermediate,True,Direct linear progression from Bodyweight Single-Leg RDL to Airplane Balance Pose once technique is mastered.,validated
+REL0115,EX077,EX076,easier_variant,95,balance;muscle_strength;mobility,beginner,False,Regresses load or lever arm to Single-Leg Clock Reaches to rebuild form and avoid strain.,validated
+REL0116,EX078,EX079,progression,90,balance;core_stability,intermediate,True,Direct linear progression from High Knee Balance Hold to Airplane Balance Pose once technique is mastered.,validated
+REL0117,EX078,EX074,easier_variant,95,balance;core_stability,beginner,False,Regresses load or lever arm to Single-Leg Stance to rebuild form and avoid strain.,validated
+REL0118,EX079,EX078,easier_variant,95,balance;core_stability;mobility,beginner,False,Regresses load or lever arm to High Knee Balance Hold to rebuild form and avoid strain.,validated
+REL0119,EX080,EX074,easier_variant,95,balance;mobility,beginner,False,Regresses load or lever arm to Single-Leg Stance to rebuild form and avoid strain.,validated
+REL0120,EX081,EX076,easier_variant,95,balance;core_stability;mobility,beginner,False,Regresses load or lever arm to Single-Leg Clock Reaches to rebuild form and avoid strain.,validated
+REL0121,EX082,EX024,easier_variant,95,balance;muscle_strength,beginner,False,Regresses load or lever arm to Assisted Reverse Lunge to rebuild form and avoid strain.,validated
+REL0122,EX083,EX085,progression,90,mobility;core_stability,beginner,True,Direct linear progression from Cat-Cow Stretch to Downward-Facing Dog once technique is mastered.,validated
+REL0123,EX085,EX086,progression,90,mobility;endurance,beginner,True,Direct linear progression from Downward-Facing Dog to World's Greatest Stretch once technique is mastered.,validated
+REL0124,EX085,EX083,easier_variant,95,mobility;endurance,beginner,False,Regresses load or lever arm to Cat-Cow Stretch to rebuild form and avoid strain.,validated
+REL0125,EX086,EX085,easier_variant,95,mobility;balance,beginner,False,Regresses load or lever arm to Downward-Facing Dog to rebuild form and avoid strain.,validated
+REL0126,EX087,EX084,easier_variant,95,mobility,beginner,False,Regresses load or lever arm to Child's Pose to rebuild form and avoid strain.,validated
+REL0127,EX089,EX086,progression,90,mobility,beginner,True,Direct linear progression from Kneeling Hip Flexor Stretch to World's Greatest Stretch once technique is mastered.,validated
+REL0128,EX092,EX083,easier_variant,95,mobility,beginner,False,Regresses load or lever arm to Cat-Cow Stretch to rebuild form and avoid strain.,validated
+REL0129,EX093,EX094,progression,90,endurance,beginner,True,Direct linear progression from Step Jacks to Jumping Jacks once technique is mastered.,validated
+REL0130,EX094,EX095,progression,90,endurance,beginner,True,Direct linear progression from Jumping Jacks to Seal Jacks once technique is mastered.,validated
+REL0131,EX094,EX093,easier_variant,95,endurance,beginner,False,Regresses load or lever arm to Step Jacks to rebuild form and avoid strain.,validated
+REL0132,EX095,EX097,progression,90,endurance,intermediate,True,Direct linear progression from Seal Jacks to High Knees Running once technique is mastered.,validated
+REL0133,EX095,EX093,easier_variant,95,endurance,beginner,False,Regresses load or lever arm to Step Jacks to rebuild form and avoid strain.,validated
+REL0134,EX096,EX097,progression,90,endurance;balance,intermediate,True,Direct linear progression from High Knees March to High Knees Running once technique is mastered.,validated
+REL0135,EX097,EX096,easier_variant,95,endurance,beginner,False,Regresses load or lever arm to High Knees March to rebuild form and avoid strain.,validated
+REL0136,EX098,EX097,progression,90,endurance,intermediate,True,Direct linear progression from Butt Kicks to High Knees Running once technique is mastered.,validated
+REL0137,EX098,EX096,easier_variant,95,endurance,beginner,False,Regresses load or lever arm to High Knees March to rebuild form and avoid strain.,validated
+REL0138,EX099,EX028,easier_variant,95,endurance;balance,beginner,False,Regresses load or lever arm to Curtsy Lunge to rebuild form and avoid strain.,validated
+REL0139,EX001,EX013,complementary,85,mobility;muscle_strength,beginner,False,Prone Y-Raise reinforces postural retractors opposite to wall pressing.,validated
+REL0140,EX001,EX083,recovery,80,mobility,beginner,False,Cat-Cow relieves spinal and shoulder tension.,validated
+REL0141,EX001,EX017,alternative,82,core_stability;mobility,beginner,False,Scapular push-up strengthens serratus anterior without full press load.,validated
+REL0142,EX002,EX003,alternative,88,muscle_strength;endurance,beginner,False,Knee push-up offers a parallel floor-based horizontal press alternative.,validated
+REL0143,EX002,EX014,complementary,84,mobility;muscle_strength,beginner,True,Prone T-Raise engages rhomboids to balance upper chest loading.,validated
+REL0144,EX002,EX084,recovery,80,mobility,beginner,False,Child's Pose decompresses shoulders and lats.,validated
+REL0145,EX003,EX002,alternative,88,muscle_strength;endurance,beginner,False,Incline push-up provides an elevated press option with less knee pressure.,validated
+REL0146,EX003,EX015,complementary,85,mobility;muscle_strength,beginner,True,Prone W-Raise balances anterior shoulder fatigue.,validated
+REL0147,EX003,EX084,recovery,82,mobility,beginner,False,Active shoulder relaxation in Child's Pose.,validated
+REL0148,EX004,EX016,complementary,90,core_stability;mobility;muscle_strength,intermediate,True,Prone Cobra trains antagonist posterior chain after horizontal pressing.,validated
+REL0149,EX004,EX018,complementary,88,muscle_strength;endurance,intermediate,True,Incline row balances horizontal push with horizontal pull.,validated
+REL0150,EX004,EX010,alternative,80,muscle_strength;endurance,intermediate,True,Chair dip shifts focus to triceps.,validated
+REL0151,EX004,EX084,recovery,78,mobility,beginner,False,Child's Pose releases pectoral and deltoid tightness.,validated
+REL0152,EX005,EX010,easier_variant,88,muscle_strength,intermediate,False,Chair dips provide triceps loading with less anterior shoulder shear.,validated
+REL0153,EX005,EX016,complementary,85,core_stability;muscle_strength,intermediate,True,Posterior chain extension to offset close-grip chest work.,validated
+REL0154,EX005,EX084,recovery,75,mobility,beginner,False,Decompresses triceps and wrists.,validated
+REL0155,EX006,EX040,complementary,86,core_stability,intermediate,True,Forearm plank reinforces anti-extension control.,validated
+REL0156,EX007,EX085,easier_variant,86,mobility;endurance,intermediate,False,Downward Dog provides the inverted alignment without pressing strain.,validated
+REL0157,EX007,EX015,complementary,84,mobility;muscle_strength,intermediate,True,Rotator cuff strengthening to stabilize overhead mechanics.,validated
+REL0158,EX008,EX041,complementary,82,core_stability,intermediate,True,High plank solidifies straight-line stability.,validated
+REL0159,EX009,EX084,recovery,88,mobility,beginner,False,Immediate rest in Child's Pose after demanding overhead inversion.,validated
+REL0160,EX010,EX013,complementary,82,mobility,beginner,False,Y-Raise restores thoracic extension.,validated
+REL0161,EX010,EX018,complementary,84,muscle_strength,beginner,True,Bicep and upper back pulling balances triceps pushing.,validated
+REL0162,EX011,EX084,recovery,80,mobility,beginner,False,Child's Pose to decompress shoulders.,validated
+REL0163,EX011,EX013,complementary,83,mobility;muscle_strength,beginner,False,Prone Y-Raise activates mid-back.,validated
+REL0164,EX012,EX016,complementary,85,core_stability;muscle_strength,intermediate,True,Prone Cobra to open chest and extend back.,validated
+REL0165,EX013,EX083,recovery,85,mobility,beginner,False,Cat-Cow stretch allows active spinal mobilization.,validated
+REL0166,EX014,EX013,alternative,88,mobility,beginner,False,Y-Raise focuses on lower traps if rhomboids are fatigued.,validated
+REL0167,EX015,EX084,recovery,85,mobility,beginner,False,Child's Pose relaxes scapular muscles.,validated
+REL0168,EX016,EX084,recovery,90,mobility,beginner,False,Child's Pose reverses lumbar extension.,validated
+REL0169,EX018,EX004,complementary,86,muscle_strength;endurance,intermediate,True,Push-up pairs as agonist-antagonist horizontal chain.,validated
+REL0170,EX019,EX031,complementary,90,core_stability;muscle_strength,beginner,False,Glute bridge engages posterior chain without axial loading.,validated
+REL0171,EX019,EX034,complementary,80,muscle_strength;endurance;balance,beginner,False,Calf raise trains lower kinetic link.,validated
+REL0172,EX019,EX083,recovery,82,mobility,beginner,False,Cat-Cow mobilizes lumbar-pelvic rhythm.,validated
+REL0173,EX020,EX031,complementary,88,core_stability;muscle_strength,beginner,False,Glute bridge activates glutes safely on the floor.,validated
+REL0174,EX021,EX025,complementary,88,muscle_strength;balance,intermediate,True,Reverse lunge introduces unilateral hip stability.,validated
+REL0175,EX021,EX031,complementary,90,core_stability;muscle_strength,beginner,False,Glute bridge fires glute max without quad dominance.,validated
+REL0176,EX021,EX022,alternative,85,muscle_strength;mobility,beginner,True,Sumo squat changes stance to reduce hip impingement.,validated
+REL0177,EX021,EX089,recovery,82,mobility,beginner,False,Kneeling hip flexor stretch opens hip anterior.,validated
+REL0178,EX022,EX021,alternative,88,muscle_strength;endurance,beginner,False,Standard squat uses neutral hip adductor stance.,validated
+REL0179,EX022,EX090,recovery,86,mobility,beginner,False,Butterfly stretch releases adductor tightness.,validated
+REL0180,EX023,EX031,complementary,85,core_stability,beginner,False,Floor glute bridge unloads knee joints.,validated
+REL0181,EX024,EX036,alternative,82,muscle_strength;mobility,beginner,False,Side-lying abduction builds hip stability lying down.,validated
+REL0182,EX025,EX021,alternative,88,muscle_strength;endurance,beginner,False,Bilateral squat removes unilateral balance requirement.,validated
+REL0183,EX025,EX031,complementary,86,core_stability;muscle_strength,beginner,False,Glute bridge isolates hip extension without knee shear.,validated
+REL0184,EX026,EX089,recovery,82,mobility,beginner,False,Kneeling hip stretch releases tight psoas.,validated
+REL0185,EX027,EX025,easier_variant,88,muscle_strength;balance,intermediate,False,Reverse lunge eliminates traveling momentum.,validated
+REL0186,EX027,EX040,complementary,82,core_stability,intermediate,True,Forearm plank anchors core after dynamic lunging.,validated
+REL0187,EX028,EX037,complementary,84,mobility;muscle_strength,beginner,False,Clamshell strengthens glute medius on the mat.,validated
+REL0188,EX029,EX031,complementary,85,core_stability,beginner,False,Glute bridge balances anterior quad loading.,validated
+REL0189,EX030,EX032,complementary,88,core_stability;muscle_strength,intermediate,True,Single-leg glute bridge targets posterior chain unilaterally.,validated
+REL0190,EX031,EX045,complementary,88,core_stability;mobility,beginner,False,Dead bug pairs anterior core with glute bridge posterior core.,validated
+REL0191,EX031,EX084,recovery,80,mobility,beginner,False,Child's Pose restores hip and lower back relaxation.,validated
+REL0192,EX033,EX031,alternative,88,muscle_strength;mobility,beginner,False,Standard bridge if external rotation is uncomfortable.,validated
+REL0193,EX034,EX085,recovery,82,mobility,beginner,False,Downward Dog provides deep calf stretching.,validated
+REL0194,EX036,EX037,alternative,88,mobility;muscle_strength,beginner,False,Clamshell targets external rotators without straight-leg lever.,validated
+REL0195,EX039,EX045,alternative,88,core_stability;mobility,beginner,False,Dead bug builds deep abdominal bracing while lying comfortably supine.,validated
+REL0196,EX039,EX046,complementary,86,core_stability;balance,beginner,False,Bird Dog builds cross-sling lumbar stability on all fours.,validated
+REL0197,EX039,EX083,recovery,82,mobility,beginner,False,Cat-Cow mobilizes spine gently.,validated
+REL0198,EX040,EX046,complementary,92,core_stability;balance;mobility,beginner,True,Bird dog balances anterior brace with posterior sling stability.,validated
+REL0199,EX040,EX042,complementary,88,core_stability;balance,beginner,True,Side plank activates lateral stabilizers and obliques.,validated
+REL0200,EX040,EX045,easier_variant,88,core_stability;mobility,beginner,False,Dead bug unloads spine onto mat while teaching transverse abdominal brace.,validated
+REL0201,EX040,EX084,recovery,85,mobility,beginner,False,Child's Pose releases abdominal and shoulder isometric fatigue.,validated
+REL0202,EX041,EX040,alternative,90,core_stability;endurance,beginner,True,Forearm plank eliminates wrist extension pressure.,validated
+REL0203,EX041,EX069,complementary,85,mobility;core_stability,beginner,True,Downward dog flow decompresses shoulders and lengthens calves.,validated
+REL0204,EX042,EX045,alternative,82,core_stability,beginner,False,Dead bug for supine trunk stability without lateral strain.,validated
+REL0205,EX043,EX040,alternative,86,core_stability;endurance,intermediate,True,Forearm plank shifts focus to bilateral anterior wall.,validated
+REL0206,EX045,EX046,complementary,90,core_stability;balance;mobility,beginner,True,Bird Dog trains posterior contralateral diagonal.,validated
+REL0207,EX045,EX031,complementary,88,core_stability;muscle_strength,beginner,False,Glute bridge engages glutes to complete pelvic girdle support.,validated
+REL0208,EX045,EX083,recovery,82,mobility,beginner,False,Cat-Cow relaxes spinal erectors.,validated
+REL0209,EX046,EX040,complementary,88,core_stability;endurance,beginner,True,Forearm plank trains isometric anterior wall endurance.,validated
+REL0210,EX046,EX084,recovery,84,mobility,beginner,False,Child's Pose releases quadruped spinal muscles.,validated
+REL0211,EX055,EX054,alternative,88,core_stability;endurance,intermediate,False,Flutter kicks offer sagittal plane alternative to scissor kicks.,validated
+REL0212,EX056,EX045,alternative,85,core_stability,beginner,False,Dead bug avoids spinal rotation if lower back is sensitive.,validated
+REL0213,EX058,EX045,alternative,86,core_stability,beginner,False,Dead bug removes cervical flexion pull from crunches.,validated
+REL0214,EX059,EX058,alternative,85,muscle_strength;endurance,beginner,False,Standard crunch focuses on upper rectus abdominis.,validated
+REL0215,EX060,EX046,complementary,85,core_stability;balance,beginner,True,Bird dog balances repetitive flexion with posterior extension.,validated
+REL0216,EX061,EX064,alternative,86,mobility;core_stability,beginner,False,Inchworm walkout offers controlled movement without floor thrust.,validated
+REL0217,EX061,EX093,alternative,85,endurance,beginner,False,Step jacks maintain cardio rhythm upright.,validated
+REL0218,EX061,EX084,recovery,82,mobility,beginner,False,Child's Pose recovers breathing rate.,validated
+REL0219,EX062,EX094,alternative,84,endurance,intermediate,False,Jumping jacks sustain cardiovascular demand with less wrist stress.,validated
+REL0220,EX062,EX084,recovery,80,mobility,beginner,False,Active breathing recovery in Child's Pose.,validated
+REL0221,EX063,EX084,recovery,85,mobility,beginner,False,Full restorative rest in Child's Pose.,validated
+REL0222,EX064,EX085,complementary,85,mobility,beginner,False,Downward Dog holds the posterior hamstring stretch statically.,validated
+REL0223,EX069,EX084,recovery,82,mobility,beginner,False,Child's Pose calms respiration.,validated
+REL0224,EX073,EX019,complementary,82,muscle_strength;mobility,beginner,False,Chair squat builds foundational leg strength for balance.,validated
+REL0225,EX074,EX031,complementary,84,core_stability;muscle_strength,beginner,False,Glute bridge strengthens pelvic stabilizers in a stable supine setting.,validated
+REL0226,EX083,EX084,complementary,90,mobility,beginner,False,Child's Pose extends the spinal release from Cat-Cow.,validated
+REL0227,EX084,EX083,complementary,88,mobility;core_stability,beginner,False,Cat-Cow gently moves spine after static resting stretch.,validated
+REL0228,EX086,EX089,easier_variant,92,mobility,beginner,False,Kneeling hip flexor stretch isolates hips without complex thoracic twist.,validated
+REL0229,EX088,EX084,recovery,88,mobility,beginner,False,Child's Pose balances spinal extension with gentle flexion.,validated
+REL0230,EX089,EX084,recovery,85,mobility,beginner,False,Child's Pose restores neutral pelvis.,validated
+REL0231,EX090,EX084,recovery,84,mobility,beginner,False,Child's Pose decompresses groin and hips.,validated
+REL0232,EX091,EX089,alternative,85,mobility,beginner,False,Kneeling stretch removes single-leg balance requirement.,validated
+REL0233,EX093,EX096,alternative,85,endurance;balance,beginner,False,High knee march provides upright marching cardio without arm abduction.,validated
+REL0234,EX093,EX083,recovery,80,mobility,beginner,False,Cat-Cow allows active recovery and breathing control.,validated
+REL0235,EX094,EX095,alternative,88,endurance,beginner,True,Seal jacks vary shoulder movement plane while keeping cardio pace.,validated
+REL0236,EX094,EX098,alternative,84,endurance,beginner,True,Butt kicks shift primary activation to hamstrings.,validated
+REL0237,EX094,EX096,easier_variant,90,endurance;balance,beginner,False,High knees march drops ground reaction force to low impact.,validated
+REL0238,EX095,EX094,alternative,88,endurance,beginner,True,Standard jumping jacks offer vertical arm motion.,validated
+REL0239,EX096,EX093,alternative,88,endurance,beginner,False,Step jacks offer lateral stepping cardio alternative.,validated
+REL0240,EX096,EX084,recovery,80,mobility,beginner,False,Restorative Child's Pose breathing.,validated
+REL0241,EX097,EX094,alternative,85,endurance,intermediate,False,Jumping jacks distribute impact across bilateral base.,validated
+REL0242,EX098,EX094,alternative,86,endurance,beginner,False,Jumping jacks alternate footstrike mechanics.,validated
+REL0243,EX099,EX094,alternative,85,endurance,intermediate,False,Jumping jacks offer symmetric bilateral bounding.,validated
+REL0244,EX100,EX093,alternative,84,endurance,beginner,False,Step jacks offer steady lower-body footwork.,validated
+REL0245,EX100,EX083,recovery,82,mobility,beginner,False,Cat-Cow releases upper back tension from punching.,validated
+REL0246,EX006,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0247,EX007,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0248,EX008,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0249,EX009,EX040,complementary,80,core_stability,beginner,True,Forearm plank locks core stability required for upper body integrity.,validated
+REL0250,EX010,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0251,EX011,EX001,easier_variant,80,muscle_strength;endurance,beginner,False,Offers a balanced alternative within Upper Body.,validated
+REL0252,EX012,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0253,EX013,EX040,complementary,80,core_stability,beginner,True,Forearm plank locks core stability required for upper body integrity.,validated
+REL0254,EX013,EX001,alternative,80,mobility;muscle_strength,beginner,False,Offers a balanced alternative within Upper Body.,validated
+REL0255,EX014,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0256,EX014,EX040,complementary,80,core_stability,beginner,True,Forearm plank locks core stability required for upper body integrity.,validated
+REL0257,EX015,EX040,complementary,80,core_stability,beginner,True,Forearm plank locks core stability required for upper body integrity.,validated
+REL0258,EX016,EX040,complementary,80,core_stability,beginner,True,Forearm plank locks core stability required for upper body integrity.,validated
+REL0259,EX017,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0260,EX017,EX040,complementary,80,core_stability,beginner,True,Forearm plank locks core stability required for upper body integrity.,validated
+REL0261,EX018,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0262,EX018,EX001,easier_variant,80,muscle_strength;endurance,beginner,False,Offers a balanced alternative within Upper Body.,validated
+REL0263,EX019,EX020,alternative,80,muscle_strength;mobility,beginner,False,Offers a balanced alternative within Lower Body.,validated
+REL0264,EX020,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0265,EX022,EX045,complementary,80,core_stability;mobility,beginner,True,Dead bug stabilizes pelvis during lower body recruitment.,validated
+REL0266,EX023,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0267,EX024,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0268,EX024,EX045,complementary,80,core_stability;mobility,beginner,True,Dead bug stabilizes pelvis during lower body recruitment.,validated
+REL0269,EX025,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0270,EX026,EX045,complementary,80,core_stability;mobility,beginner,True,Dead bug stabilizes pelvis during lower body recruitment.,validated
+REL0271,EX027,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0272,EX028,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0273,EX029,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0274,EX030,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0275,EX031,EX019,alternative,80,core_stability;muscle_strength,beginner,False,Offers a balanced alternative within Lower Body.,validated
+REL0276,EX032,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0277,EX032,EX045,complementary,80,core_stability;mobility,beginner,True,Dead bug stabilizes pelvis during lower body recruitment.,validated
+REL0278,EX033,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0279,EX033,EX045,complementary,80,core_stability;mobility,beginner,True,Dead bug stabilizes pelvis during lower body recruitment.,validated
+REL0280,EX034,EX045,complementary,80,core_stability;mobility,beginner,True,Dead bug stabilizes pelvis during lower body recruitment.,validated
+REL0281,EX034,EX019,alternative,80,muscle_strength;endurance;balance,beginner,False,Offers a balanced alternative within Lower Body.,validated
+REL0282,EX035,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0283,EX035,EX045,complementary,80,core_stability;mobility,beginner,True,Dead bug stabilizes pelvis during lower body recruitment.,validated
+REL0284,EX036,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0285,EX036,EX045,complementary,80,core_stability;mobility,beginner,True,Dead bug stabilizes pelvis during lower body recruitment.,validated
+REL0286,EX037,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0287,EX037,EX045,complementary,80,core_stability;mobility,beginner,True,Dead bug stabilizes pelvis during lower body recruitment.,validated
+REL0288,EX037,EX019,alternative,80,mobility;muscle_strength;core_stability,beginner,False,Offers a balanced alternative within Lower Body.,validated
+REL0289,EX038,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0290,EX038,EX045,complementary,80,core_stability;mobility,beginner,True,Dead bug stabilizes pelvis during lower body recruitment.,validated
+REL0291,EX041,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0292,EX042,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0293,EX042,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0294,EX043,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0295,EX043,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0296,EX044,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0297,EX044,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0298,EX045,EX039,alternative,80,core_stability;mobility,beginner,False,Offers a balanced alternative within Core.,validated
+REL0299,EX047,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0300,EX047,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0301,EX048,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0302,EX048,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0303,EX049,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0304,EX049,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0305,EX050,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0306,EX050,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0307,EX051,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0308,EX051,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0309,EX052,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0310,EX052,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0311,EX053,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0312,EX053,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0313,EX054,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0314,EX054,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0315,EX055,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0316,EX055,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0317,EX056,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0318,EX056,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0319,EX057,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0320,EX057,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0321,EX058,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0322,EX058,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0323,EX059,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0324,EX059,EX031,complementary,82,core_stability;muscle_strength,beginner,True,Glute bridge works posterior chain in harmony with core.,validated
+REL0325,EX060,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0326,EX064,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0327,EX064,EX061,alternative,80,mobility;core_stability;muscle_strength,beginner,False,Offers a balanced alternative within Full Body.,validated
+REL0328,EX065,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0329,EX066,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0330,EX067,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0331,EX068,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0332,EX070,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0333,EX071,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0334,EX072,EX084,recovery,75,mobility,beginner,False,Child's Pose promotes muscular decompression and breathing reset.,validated
+REL0335,EX073,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0336,EX073,EX074,alternative,80,balance;core_stability,beginner,False,Offers a balanced alternative within Balance & Stability.,validated
+REL0337,EX074,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0338,EX075,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0339,EX075,EX046,complementary,80,core_stability;balance,beginner,True,Bird dog reinforces rotary core balance on all fours.,validated
+REL0340,EX076,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0341,EX076,EX046,complementary,80,core_stability;balance,beginner,True,Bird dog reinforces rotary core balance on all fours.,validated
+REL0342,EX077,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0343,EX077,EX046,complementary,80,core_stability;balance,beginner,True,Bird dog reinforces rotary core balance on all fours.,validated
+REL0344,EX078,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0345,EX078,EX046,complementary,80,core_stability;balance,beginner,True,Bird dog reinforces rotary core balance on all fours.,validated
+REL0346,EX079,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0347,EX079,EX046,complementary,80,core_stability;balance,beginner,True,Bird dog reinforces rotary core balance on all fours.,validated
+REL0348,EX080,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0349,EX080,EX046,complementary,80,core_stability;balance,beginner,True,Bird dog reinforces rotary core balance on all fours.,validated
+REL0350,EX081,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0351,EX081,EX046,complementary,80,core_stability;balance,beginner,True,Bird dog reinforces rotary core balance on all fours.,validated
+REL0352,EX082,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0353,EX082,EX046,complementary,80,core_stability;balance,beginner,True,Bird dog reinforces rotary core balance on all fours.,validated
+REL0354,EX083,EX084,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0355,EX083,EX084,alternative,80,mobility;core_stability,beginner,False,Offers a balanced alternative within Mobility & Flexibility.,validated
+REL0356,EX084,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0357,EX084,EX083,alternative,80,mobility,beginner,False,Offers a balanced alternative within Mobility & Flexibility.,validated
+REL0358,EX085,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0359,EX085,EX045,complementary,78,core_stability;mobility,beginner,True,Dead bug activates deep stabilizers after mobility work.,validated
+REL0360,EX086,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0361,EX086,EX045,complementary,78,core_stability;mobility,beginner,True,Dead bug activates deep stabilizers after mobility work.,validated
+REL0362,EX087,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0363,EX087,EX045,complementary,78,core_stability;mobility,beginner,True,Dead bug activates deep stabilizers after mobility work.,validated
+REL0364,EX088,EX045,complementary,78,core_stability;mobility,beginner,True,Dead bug activates deep stabilizers after mobility work.,validated
+REL0365,EX088,EX083,alternative,80,mobility,beginner,False,Offers a balanced alternative within Mobility & Flexibility.,validated
+REL0366,EX089,EX045,complementary,78,core_stability;mobility,beginner,True,Dead bug activates deep stabilizers after mobility work.,validated
+REL0367,EX089,EX083,alternative,80,mobility,beginner,False,Offers a balanced alternative within Mobility & Flexibility.,validated
+REL0368,EX090,EX045,complementary,78,core_stability;mobility,beginner,True,Dead bug activates deep stabilizers after mobility work.,validated
+REL0369,EX090,EX083,alternative,80,mobility,beginner,False,Offers a balanced alternative within Mobility & Flexibility.,validated
+REL0370,EX091,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0371,EX091,EX045,complementary,78,core_stability;mobility,beginner,True,Dead bug activates deep stabilizers after mobility work.,validated
+REL0372,EX092,EX083,recovery,75,mobility,beginner,False,Gentle mobility drill encourages rhythmic recovery.,validated
+REL0373,EX092,EX045,complementary,78,core_stability;mobility,beginner,True,Dead bug activates deep stabilizers after mobility work.,validated
+REL0374,EX093,EX040,complementary,80,core_stability;endurance,beginner,True,Forearm plank restores isometric control between cardio intervals.,validated
+REL0375,EX094,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0376,EX094,EX040,complementary,80,core_stability;endurance,beginner,True,Forearm plank restores isometric control between cardio intervals.,validated
+REL0377,EX095,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0378,EX095,EX040,complementary,80,core_stability;endurance,beginner,True,Forearm plank restores isometric control between cardio intervals.,validated
+REL0379,EX096,EX040,complementary,80,core_stability;endurance,beginner,True,Forearm plank restores isometric control between cardio intervals.,validated
+REL0380,EX097,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0381,EX097,EX040,complementary,80,core_stability;endurance,beginner,True,Forearm plank restores isometric control between cardio intervals.,validated
+REL0382,EX098,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0383,EX098,EX040,complementary,80,core_stability;endurance,beginner,True,Forearm plank restores isometric control between cardio intervals.,validated
+REL0384,EX099,EX089,recovery,75,mobility,beginner,False,Kneeling hip flexor stretch restores resting hip length.,validated
+REL0385,EX099,EX040,complementary,80,core_stability;endurance,beginner,True,Forearm plank restores isometric control between cardio intervals.,validated
+REL0386,EX100,EX040,complementary,80,core_stability;endurance,beginner,True,Forearm plank restores isometric control between cardio intervals.,validated
